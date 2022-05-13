@@ -1,0 +1,285 @@
+body {
+    margin: 0 ;
+    padding: 0;
+    overflow: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    font-size: 125%;
+    
+}
+
+p {
+    font-size: 175%;
+    text-decoration: bold;
+    opacity: 1;
+    display:flex;
+    justify-content: center;
+}
+
+p1 {
+    font-size: 140%;
+    text-decoration: bold;
+    position:Relative;
+    top: 1vw;
+    display:flex;
+    justify-content: center;
+}
+
+p2 {
+    float:left;
+    font-size: 115%;
+    left: 0.5vw;
+    position:Relative;
+    top: 1vw;
+    margin-bottom: 2vw;
+    width: 37vw;
+}
+
+p3 {
+    position:relative;
+    text-decoration:bold;
+    font-size: 140%;
+    left: 16vw;
+    top: 0.5vw;
+}
+
+p4 {
+    font-size: 175%;
+    text-decoration: bold;
+    opacity: 1;
+    display:flex;
+    justify-content: center;
+    margin-bottom: -2vw;
+}
+
+p5 {
+    font-size: 140%;
+    text-decoration: bold;
+    position:Relative;
+    top: 1vw;
+    left: 9vw;
+}
+
+.titel {
+    text-align:center;
+    text-decoration: bold;
+    font-size: 175%;
+    position:relative;
+    bottom: 1vw;
+}
+
+.gemaakt {
+    text-align: center;
+    text-decoration: bold;
+    color: #6EC1E4;
+    font-size: 150%;
+    bottom: 3vw;
+    position:relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    left: 18vw;
+    position:Relative;
+    bottom: 3vw;
+    background-color: grey;
+    padding: 0.5vw;
+    border-radius: 1vw;
+}
+
+.nav:hover {
+    background-color: white;
+   
+}
+
+.nav {
+    color: black;
+}
+
+.active:hover {
+    background-color: white;
+}
+
+.active {
+    color:#6EC1E4;
+}
+
+.headerfoto {
+    width: 98.9vw;
+    height:10vw;
+    position:Relative;
+    bottom: 3vw;
+}
+
+.mainvak1 {
+    color: black;
+    position: Relative;
+    bottom: 2vw;
+    left: 1vw;
+    width: 80vw;
+    height: 30vw;
+}
+
+.mainvak1back {
+    background-color: grey;
+    position:Relative;
+    opacity: 0.4;
+    width: 80vw;
+    height: 30vw;
+    position:absolute;
+    border-radius: 3vw;
+    box-shadow: 0.4vw 0.4vw 0.4vw lightgrey;
+}
+
+.secondaryvakback {
+    background-color: #6EC1E4;
+    opacity: 0.8;
+    position: absolute;
+    width: 36vw;
+    height: 24vw;
+    border-radius: 2vw;
+    padding: 1vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw grey;
+}
+
+.thirdvakback {
+    width: 35vw;
+    height: 23vw;
+    background-color: aqua;
+    opacity: 0.3;
+    position: absolute;
+    padding: 1vw;
+    border-radius: 2vw;
+    left: 0.5vw;
+    top: 0.5vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw grey;
+}
+
+.secondaryvakborder {
+    width: 38vw;
+    height: 25vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+.secondaryvakborder2 {
+    width: 38vw;
+    height: 25vw;
+    position:Relative;
+    float: right;
+    bottom: 25vw;
+    right: 2vw;
+}
+
+.secondaryvakborder3 {
+    width: 38vw;
+    height: 25vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    top: 2.5vw;
+    position:relative;
+}
+
+.secondaryvakborder4 {
+    width: 38vw;
+    height: 25vw;
+    position:Relative;
+    float: right;
+    bottom: 22.5vw;
+    right: 2vw;
+}
+
+.vtmbetekenis {
+    width: 14.5vw;
+    height: 19vw;
+    background-color: grey;
+    position: absolute;
+    right: -16.5vw;
+    color: white;
+    font-size: 100%;
+    top: 6vw;
+    z-index: 1;
+    opacity: 0.8;
+    padding: 0.5vw;
+    border-radius: 1vw;
+}
+
+.bronvermelding {
+    height: 9vw;
+    width: 14vw;
+    background-color: grey;
+    color: white;
+    left: 82vw;
+    position: Relative;
+    bottom: 128vw;
+    opacity: 0.9;
+    border-radius: 2vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    box-shadow: 0.03vw 0.03vw 0.03vw darkgrey;
+}
+
+.mainvak1omgang {
+    color: black;
+    position: Relative;
+    bottom: 2vw;
+    left: 0vw;
+    width: 40vw;
+    height: 18vw;
+    margin-left:1vw;
+}
+
+.mainvak1backomgang {
+    background-color: grey;
+    position:Relative;
+    opacity: 0.4;
+    width: 40vw;
+    height: 18vw;
+    position:absolute;
+    border-radius: 3vw;
+    box-shadow: 0.4vw 0.4vw 0.4vw lightgrey;
+}
+
+.secondaryvakbackomgang {
+    background-color: #6EC1E4;
+    opacity: 0.8;
+    position: absolute;
+    width: 36vw;
+    height: 13vw;
+    border-radius: 2vw;
+    padding: 1vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw grey;
+}
+
+.thirdvakbackomgang {
+    width: 35vw;
+    height: 12vw;
+    background-color: aqua;
+    opacity: 0.3;
+    position: absolute;
+    padding: 1vw;
+    border-radius: 2vw;
+    left: 0.5vw;
+    top: 0.5vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw grey;
+}
+
+.secondaryvakborderomgang {
+    width: 38vw;
+    height: 20vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+
+.allevakken {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
